@@ -1,0 +1,14 @@
+{
+  "relu": {
+    "status": "solved",
+    "solved_at": "2026-04-16T20:12:05.660367",
+    "best_time": 0.16742933302884921,
+    "attempts": 1
+  },
+  "softmax": {
+    "status": "solved",
+    "attempts": 3,
+    "solved_at": "2026-04-17T10:25:30.483271",
+    "best_time": 0.0022235840442590415
+  }
+}
