@@ -34,5 +34,17 @@
     "solved_at": "2026-04-18T16:17:56.589223",
     "best_time": 0.024457292980514467,
     "attempts": 2
+  },
+  "batchnorm": {
+    "status": "solved",
+    "solved_at": "2026-04-18T22:07:07.845072",
+    "best_time": 0.03828433307353407,
+    "attempts": 2
+  },
+  "rmsnorm": {
+    "status": "solved",
+    "solved_at": "2026-04-18T22:25:19.378430",
+    "best_time": 0.0846245409338735,
+    "attempts": 1
   }
 }
