@@ -10,7 +10,7 @@
 两者关系：
 
 $$
-	ext{std} = \sqrt{\text{var}}
+\text{std} = \sqrt{\text{var}}
 $$
 
 它们都描述离散程度，只是尺度不同。
@@ -206,8 +206,7 @@ scores = scores.masked_fill(mask.unsqueeze(0), float('-inf'))
 - 把需要屏蔽的位置填成 `-inf`。
 - 后续 `softmax` 时，`exp(-inf)=0`，这些位置的注意力权重就变成 0。
 
-结论：这 4 行代码本质上是在构造并应用一个“带状掩码”，只保留对角线附近窗口内的注意力连接。
-## Part E：torch.matmul 与 torch.bmm
+结论：这 4 行代码本质上是在构造并应用一个“带状掩码”，只保留对角线附近窗口内的注意力连接。## Part E：torch.matmul 与 torch.bmm
 
 ### Q11：`torch.matmul` 和 `torch.bmm` 的区别是什么？
 
