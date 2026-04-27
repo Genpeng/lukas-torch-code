@@ -55,14 +55,14 @@
   },
   "sliding_window": {
     "status": "solved",
-    "solved_at": "2026-04-20T09:59:23.550693",
-    "best_time": 0.0364897099789232,
-    "attempts": 3
+    "solved_at": "2026-04-27T11:22:12.893552",
+    "best_time": 0.031788248947123066,
+    "attempts": 4
   },
   "gqa": {
     "status": "solved",
-    "solved_at": "2026-04-23T11:11:03.501598",
-    "best_time": 0.10056816703581717,
-    "attempts": 1
+    "solved_at": "2026-04-27T11:21:24.597011",
+    "best_time": 0.01106320897815749,
+    "attempts": 4
   }
 }
